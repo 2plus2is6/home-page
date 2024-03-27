@@ -57,3 +57,51 @@ body{
     margin-top: 15px;
 }
 
+.content{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-top: 2px inset blue;
+}
+
+.content .heading{
+    font-family: 'Oswald';
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 25px;
+    
+}
+
+
+.countries{
+    padding: 50px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:55px;
+}
+
+.country, .cimg{
+    width:100px;
+}
+
+.cimg{
+    height: auto;
+}
+
+.cdata{
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgb(121, 73, 73);
+    text-wrap: wrap;
+    padding:5px;
+}
+
+.cname{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #e64f13, 0 0 20px #e64f13, 0 0 30px #e64f13, 0 0 40px #e64f13, 0 0 50px #e64f13, 0 0 60px #00ff00, 0 0 70px #e64f13, 0 0 80px #e64f13;
+    animation: glow-animation 2s infinite alternate;
+}
