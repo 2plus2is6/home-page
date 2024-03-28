@@ -63,7 +63,7 @@ body{
     flex-direction: column;
     align-items: center;
     color: white;
-    border-top: 2px inset blue;
+    border-top: 2px inset rgb(62, 231, 247);
 }
 
 .content .heading{
@@ -123,4 +123,35 @@ body{
     font-weight: bold;
     text-align: right;
     font-size: 20px;
+}
+
+.newsletter{
+    color: #BC13FE;
+    background-color: #000000;
+    padding:80px;
+
+}
+
+.newsletter .heading{
+    font-weight: 700;
+}
+
+.container{
+    background-color: rgb(63, 0, 255);
+    align-items: center;
+    border-radius: 0%;
+    display: flex;
+    flex:1;
+    gap:50px;
+    padding:20px;
+    justify-content: space-between;
+}
+
+button{
+    border-radius: 10%;
+    align-self: stretch;
+    background-color: rgb(63, 0, 255);
+    font-size: large;
+    color:#BC13FE;
+    border-color: #BC13FE;
 }
