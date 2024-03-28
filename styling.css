@@ -63,7 +63,9 @@ body{
     flex-direction: column;
     align-items: center;
     color: white;
-    border-top: 2px inset rgb(62, 231, 247);
+    border-top: 4px inset rgb(62, 231, 247);
+    height:800px;
+    justify-content: center;
 }
 
 .content .heading{
@@ -86,6 +88,10 @@ body{
     width:100px;
 }
 
+.country{
+border:5px solid rgb(121, 73, 73);
+border-radius: 10%;}
+
 .cimg{
     height: auto;
 }
@@ -93,8 +99,8 @@ body{
 .cdata{
     display: flex;
     flex-direction: column;
-    border:1px solid rgb(121, 73, 73);
-    border-radius: 10%;
+    
+    
     text-wrap: wrap;
     padding:5px;
 }
