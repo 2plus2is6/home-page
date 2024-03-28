@@ -155,3 +155,11 @@ button{
     color:#BC13FE;
     border-color: #BC13FE;
 }
+
+.footer{
+    background-color: rgb(113, 113, 113);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:15px;
+}
