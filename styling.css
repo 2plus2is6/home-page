@@ -160,6 +160,7 @@ button{
     font-size: large;
     color:#BC13FE;
     border-color: #BC13FE;
+    padding: 10px;
 }
 
 .footer{
